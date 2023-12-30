@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean  id="book1" class="coreservlete.Books" >
+        <property name="id" value="1"></property>
+        <property name="Name" value="JUJUTSU NO KAISEN"></property>
+        <property name="PagesNbr" value="150"></property>
+    </bean>
+    <bean id="book2" class="coreservlete.Books" >
+        <property name="id" value="2"></property>
+        <property name="Name" value="ATTACK ON TITAN"></property>
+        <property name="PagesNbr" value="250"></property>
+    </bean>
+    <bean id="article1" class="coreservlete.Articles" >
+        <property name="id" value="1"></property>
+        <property name="Name" value="ESTE News"></property>
+        <property name="Productions" value="GASSI Ayman"></property>
+    </bean>
+    <bean id="article2" class="coreservlete.Articles" >
+        <property name="id" value="2"></property>
+        <property name="Name" value="Computer Science"></property>
+        <property name="Productions" value="MACHMACH Zakaria"></property>
+    </bean>
+
+    <bean id="box" class="coreservlete.Library">
+        <property name="Books">
+            <list>
+                <ref bean="book1" />
+                <ref bean="book2" />
+            </list>
+        </property>
+        <property name="Articles">
+            <list>
+                <ref bean="article1" />
+                <ref bean="article2" />
+            </list>
+        </property>
+    </bean>
+</beans>

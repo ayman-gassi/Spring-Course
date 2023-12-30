@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="micrometer-commons-1.12.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/jar_files/micrometer-commons-1.12.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/jar_files/micrometer-observation-1.12.1.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/jar_files/spring-aop-6.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/jar_files/spring-beans-6.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/jar_files/spring-context-6.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/jar_files/spring-core-6.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/jar_files/spring-expression-6.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/jar_files/spring-jcl-6.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
